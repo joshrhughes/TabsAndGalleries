@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fun with Coding </title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- Hello Placewise!  Thank you for giving me the chance to interview for the jr. dev role.  -->
+
+<!-- I chose to attack question 3 of the challenge (and hope to finish out incorporating quetion 2 as well before our call).  My method for attack was (1) to look for inspiration online, (2) draw out a wireframe of what I wanted to build, (3) attempt to learn Bourbon/Neat and incoportate it to some degree, (4) put code to editor and pivot when needed  -->
+
+<!-- I've never worked with Bourbon or Neat before this challenge and I wanted to take a shot at trying something new. I found it to be a tad challenging with the new release of both frameworks and very few tutorials out there, but it is signficantly less bulky than Boostrap and I can appreciate that. I certainly would like to learn more about it. -->
+
+
+<!-- Header -->
+<header>
+	<div class="heading">
+		<h1>Josh Hughes</h1>
+		<h4>[ some things I'm in to ]  </h4>
+	</div>
+</header>
+<!-- End of Header -->
+
+<!-- Bouncing Arrow -->
+<div class='arrow animated bounce infinite'>
+	<i class="fa fa-angle-double-down"></i>
+</div>
+<!-- End of Bouncing Arrow -->
+
+<!-- white div -->
+<div class='whiteBox'></div>
+<!-- End of white div -->
+
+<!-- Main Body -->
+<div class='mainBody'>
+	
+	<!-- TabBox -->
+	<div class='tabBox'>
+  
+		<!-- TabLabels -->
+		<input id="tab1" type="radio" name="tabs" checked>
+		<label for="tab1">DOGS</label>
+    
+		<input id="tab2" type="radio" name="tabs">
+		<label for="tab2">DESTINATIONS</label>
+
+		<input id="tab3" type="radio" name="tabs">
+		<label for="tab3">DESSERTS</label>
+		<!-- End of TabLabels -->
+    
+		<!-- TabSections -->
+		<section id="content1">
+			<p>
+				A collection of this man's best friend
+			</p>
+			<!-- 	Image Gallery Dog-->
+			<div class='row'>
+				<div class='col'>
+					
+					<img class='column lightbox' id="myImg" src="https://image.ibb.co/jSibf7/23596367_129865011035417_3891217181647568896_n.jpg" alt="Gus1">
+						
+					<img class='column' id="myImg" src="https://image.ibb.co/cyPSnn/21879562_1441454265943505_1282688916343750656_n.jpg" alt="Gus2">
+				
+					<img class='column' id="myImg" src="https://image.ibb.co/gqphL7/17439117_1584180738279071_8250549145308233728_n.jpg" alt="Gus3">
+					
+				</div>
+			</div>
+			
+			<div class='row'>
+				<div class='col'>
+					<img class='column wide' id="myImg" src="https://image.ibb.co/dNR7nn/17817426_1831348790522846_879521487319465984_n.jpg" alt="Gus4">
+
+					<img class='column' id="myImg" src="https://image.ibb.co/jBC2L7/17934074_1005264469607499_7796951026338103296_n.jpg" alt="Gus5">
+				
+					<img class='column' id="myImg" src="https://image.ibb.co/hGp2nn/14374409_324607594570206_2712219036506128384_n.jpg" alt="Gus6">
+					
+				</div>
+			</div>
+			<!-- End of Image Gallery Dog -->
+		</section>
+
+<!-- Image Gallery Dest. -->	
+		<section id="content2">
+			<p>
+				A few places I've explored
+			</p>
+			<div class='row'>
+				<div class='col'>
+					<img class='column' id="myImg" src="https://image.ibb.co/ddSDSn/18646390_1837086466615626_7887001681487986688_n.jpg" alt="Horseshoe Bend">
+
+					<img class='column' id="myImg" src="https://image.ibb.co/hRLNL7/19931839_1486393358089181_7819099360934756352_n.jpg" alt="Moraine Lake">
+				
+					<img class='column' id="myImg" src="https://image.ibb.co/jqSf7n/19228023_438573579844562_7278582429722345472_n.jpg" alt="Marron Bells">
+					
+				</div>
+			</div>
+			
+			<div class='row'>
+				<div class='col'>
+					<img class='column' id="myImg" src="https://image.ibb.co/figwf7/18812025_1570199576385360_8673723618624012288_n.jpg" alt="Buckskin Gultch">
+
+					<img class='column' id="myImg" src="https://image.ibb.co/gSvYSn/20902729_302501726884843_3176796221461233664_n.jpg" alt="Vail">
+				
+					<img class='column' id="myImg" src="https://image.ibb.co/izkp07/20479121_135794060347249_6926787220489633792_n.jpg" alt="Grand Tetons">
+					
+				</div>
+			</div>
+		</section>
+		<!-- End of Image Gallery Dest. -->
+    
+  	<!-- Image Gallery Desserts -->	
+		<section id="content3">
+			<p>
+				Neat sweets & treats
+			</p>
+			<div class='row'>
+				<div class='col'>
+					<img class='column' id="myImg" src="https://images.unsplash.com/photo-1516919549054-e08258825f80?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1edacaa8c12b738789f965c34541e4e2&auto=format&fit=crop&w=1500&q=80" alt="donuts">
+
+					<img class='column' id="myImg" src="https://images.unsplash.com/photo-1455128587117-d569fb07d25a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c8e02a6bf282954ab292ee6ad5e769fc&auto=format&fit=crop&w=1500&q=80" alt="Ice Cream">
+				
+					<img class='column' id="myImg" src="https://images.unsplash.com/photo-1461648704997-bc28bf991386?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bdc32dae14bf09a96d56a0cdc8c952be&auto=format&fit=crop&w=1500&q=80" alt="Waffels">
+					
+				</div>
+			</div>
+			
+			<div class='row'>
+				<div class='col'>
+					<img class='column' id="myImg" src="https://images.unsplash.com/photo-1515194592251-0f3c5d1ca32e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=695bc3c03f3fb2b50a8e21d89953faf0&auto=format&fit=crop&w=1500&q=80" alt="Macaroons?">
+
+					<img class='column' id="myImg" src="https://images.unsplash.com/photo-1462188769884-495d009c7f03?ixlib=rb-0.3.5&s=3afd5af14312e28b9be67c52684452bc&auto=format&fit=crop&w=1500&q=80" alt="Pancackes">
+				
+					<img class='column' id="myImg" src="https://images.unsplash.com/photo-1464195085758-89f3e55e821e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=789207b58f9d964aa1eb5446cc367555&auto=format&fit=crop&w=1498&q=80" alt="Cookies">
+					
+				</div>
+			</div>
+		</section>
+		<!-- End of Image Gallery Dest. -->
+		<!-- End of TabSections -->
+	</div>
+	<!-- End of TabBox -->
+</div>
+<!-- End of Main Body -->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+// imports // 
+@import bourbon
+@import neat
+
+// variables // 
+$teal: #198a9e
+$blue: #132B73
+$white: #F4FCFF 
+
+// styles //
+body, html 
+	height: 100%
+	background-color: $teal
+	font-family: $helvetica
+
+header
+	background-color: $teal
+	background-image: url('https://image.ibb.co/mR0GCn/facebackground.jpg')
+	height: 100%
+	background-attachment: fixed
+	background-repeat: no-repeat
+	background-size: cover
+	position: relative 
+	text-align: right
+	color: $white
+
+	.heading
+		position: absolute
+		bottom: 0
+		right: 0
+		padding: 0 30px 30px 0	
+	
+	h1
+		font-size: 50px
+		letter-spacing: 5px
+		text-transform: uppercase
+		
+	h4
+		font-size: 20px
+	
+p
+	text-align: center
+	
+.arrow
+	color: white
+	margin-top: -50px
+	margin-left: 50%
+	font-size: 30px
+	display: none
+
+.whiteBox
+	width: 100%
+	height: 50px
+	background-color: $white
+	
+.mainBody
+	min-height: 800px
+	width: 100%
+	background-color: $blue
+	position: absolute
+	
+.tabBox 
+	min-width: 320px
+	max-width: 800px
+	position: relative
+	top: 100px
+	margin: 0 auto
+	background: $blue
+
+section 
+	display: none
+	padding: 20px
+	background-color: $white
+	margin: -8px 4px 0 0 
+	border-radius: 0px 0px 5px 5px
+
+input 
+	display: none
+
+label 
+	display: inline-block
+	padding: 15px 25px
+	font-weight: 600
+	text-align: center
+	color: $blue
+	background-color: $teal
+	border-radius: 5px 5px 0 0 
+	letter-spacing: 5px
+	width: calc(100% / 3.05)
+
+label:hover 
+	color: $white
+  
+input:checked + label
+	color: $teal
+	background-color: $white
+
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3
+	display: block
+
+
+// image gallery //		
+.row 
+	+clearfix
+	+outer-container 
+	margin: 20px 0
+
+.column 
+	+span-columns(4)
+
+#myImg:hover 
+	opacity: 0.7
+	
+
+    
